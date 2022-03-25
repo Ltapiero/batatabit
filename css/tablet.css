@@ -1,0 +1,74 @@
+header{
+    height: 80vh;
+}
+
+.header__title-container .header__button{
+    top: auto;
+    bottom: -25px;
+    margin: 0;
+    width: 350px;
+    left: calc(50% - 175px);
+}
+
+header img{
+    width: 280px;
+    height: auto;
+}
+
+.header__title-container{
+    padding-top: 50px;
+}
+
+.main-tables-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.tabla_monedas, .tabla_comisiones{
+    min-width: 0;
+}
+
+.main-product-detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width:  100%;
+    justify-content: center;
+}
+
+.plans-container--slider{
+    min-width: 0;
+    justify-content: center;
+}
+
+.tabla-contenedor a{
+    display: none;
+}
+
+.plan-info-container .right, .plan-info-container .left{
+    display: none;
+}
+
+.plans__container{
+    justify-content: center;
+    gap: 2rem;
+}
+
+.plans-container--card{
+    width: 250px;
+}
+
+.plans__container section:nth-child(1){
+    order: 2;
+}
+
+.plans__container section:nth-child(2){
+    order: 1;
+}
+
+.plans__container section:nth-child(3){
+    order: 3;
+}
+
+
